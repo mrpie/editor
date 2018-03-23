@@ -137,7 +137,7 @@
 
   window.ImageUploader = ImageUploader;
 
-  window.onload = function() {
+
     var FIXTURE_TOOLS, IMAGE_FIXTURE_TOOLS, LINK_FIXTURE_TOOLS, editor, req;
     ContentTools.IMAGE_UPLOADER = ImageUploader.createImageUploader;
     ContentTools.StylePalette.add([new ContentTools.Style('By-line', 'article__by-line', ['p']), new ContentTools.Style('Caption', 'article__caption', ['p']), new ContentTools.Style('Example', 'example', ['pre']), new ContentTools.Style('Example + Good', 'example--good', ['pre']), new ContentTools.Style('Example + Bad', 'example--bad', ['pre'])]);
@@ -189,6 +189,5 @@
         return ContentEdit.LANGUAGE = 'lp';
       }
     };
-  };
 
 }).call(this);
